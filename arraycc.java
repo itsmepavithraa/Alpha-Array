@@ -14,5 +14,7 @@ public static void main(String[] args){
     System.out.println("English: "+ marks[1]);
     System.out.println("Math: "+ marks[2]);
 
+    marks[2] =100;
+    System.out.println("Math: "+ marks[2]);
     }
 }
