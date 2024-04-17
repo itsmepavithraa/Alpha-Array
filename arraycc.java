@@ -14,7 +14,13 @@ public static void main(String[] args){
     System.out.println("English: "+ marks[1]);
     System.out.println("Math: "+ marks[2]);
 
-    marks[2] =100;
-    System.out.println("Math: "+ marks[2]);
+    // marks[2] =100; Declaring a new value for Math
+    //This will not affect the older mark of Math.
+
+    // System.out.println("Math: "+ marks[2]);
+
+    //updating 
+    marks[2] = marks[2]+1;
+    System.out.println("Updated value = " + marks[2]);
     }
 }
