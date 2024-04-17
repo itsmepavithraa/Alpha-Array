@@ -20,7 +20,12 @@ public static void main(String[] args){
     // System.out.println("Math: "+ marks[2]);
 
     //updating 
-    marks[2] = marks[2]+1;
-    System.out.println("Updated value = " + marks[2]);
+    // marks[2] = marks[2]+1;
+    // System.out.println("Updated value = " + marks[2]);
+
+    //To calculate percentage
+
+    int percentage = (marks[0]+marks[1]+marks[2])/3;
+    System.out.println("Percentage  = "+percentage+" %");
     }
 }
