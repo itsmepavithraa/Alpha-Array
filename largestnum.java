@@ -7,7 +7,7 @@ public class largestnum {
                 largest = numbers[i]; // Updating the largest number if current number is greater than largest
             }
             if(smallest > numbers[i]){
-                smallest = numbers[i]; //Updating
+                smallest = numbers[i]; //Updating the smallest number
             }
             
         }
