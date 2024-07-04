@@ -18,3 +18,6 @@ public class stock {
         System.out.println(buyAndSellStock(prices));
     }
 }
+
+
+// Time Complexity = O(n) 
