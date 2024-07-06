@@ -9,7 +9,6 @@ public class bubblesort {
                     numbers[j+1] = temp;
                 }
             }
-
         }
     }
     public static void printArray(int numbers[]){
